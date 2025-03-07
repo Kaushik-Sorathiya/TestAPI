@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="BaseURI" value="https://api.tmsandbox.co.nz/v1/" />
+  <test name="TestAPI">
+    <classes>
+      	<class name="API_TestCases.API_Tests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

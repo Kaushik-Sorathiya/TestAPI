@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4988" started-at="2025-03-04T03:58:41Z" finished-at="2025-03-04T03:58:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4988" started-at="2025-03-04T03:58:41Z" finished-at="2025-03-04T03:58:46Z">
+      <class name="API_TestCases.API_Tests">
+        <test-method status="PASS" signature="Before_Method(java.lang.String)[pri:0, instance:API_TestCases.API_Tests@69a3d1d]" name="Before_Method" is-config="true" duration-ms="1266" started-at="2025-03-04T03:58:41Z" finished-at="2025-03-04T03:58:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api.tmsandbox.co.nz/v1/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:API_TestCases.API_Tests@69a3d1d]" name="Test1" duration-ms="2972" started-at="2025-03-04T03:58:43Z" description="Get Category Details" finished-at="2025-03-04T03:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="After_Method(org.testng.ITestResult)[pri:0, instance:API_TestCases.API_Tests@69a3d1d]" name="After_Method" is-config="true" duration-ms="703" started-at="2025-03-04T03:58:46Z" finished-at="2025-03-04T03:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=API_Tests.Test1()[pri:0, instance:API_TestCases.API_Tests@69a3d1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method status="PASS" signature="Classteardown()[pri:0, instance:API_TestCases.API_Tests@69a3d1d]" name="Classteardown" is-config="true" duration-ms="109" started-at="2025-03-04T03:58:46Z" finished-at="2025-03-04T03:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Classteardown -->
+      </class> <!-- API_TestCases.API_Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
