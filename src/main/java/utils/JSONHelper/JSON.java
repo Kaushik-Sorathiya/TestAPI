@@ -1,4 +1,4 @@
-package framework.JSONUtil;
+package utils.JSONHelper;
 
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
@@ -10,8 +10,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.jayway.jsonpath.JsonPath;
-import framework.ExtentReports.ExtentTestManager;
-import framework.logger.LoggerHelper;
+import utils.ExtentReportsHelper.ExtentTestManager;
+import utils.LoggerHelper.LoggerHelper;
 import org.apache.log4j.Logger;
 
 

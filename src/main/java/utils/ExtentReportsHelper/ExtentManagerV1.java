@@ -1,4 +1,4 @@
-package framework.ExtentReports;
+package utils.ExtentReportsHelper;
 
 import java.io.File;
 

@@ -13,12 +13,12 @@ import org.testng.annotations.Parameters;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import utils.DateTimeHelper;
-import framework.ExtentReports.ExtentManagerV1;
-import framework.ExtentReports.ExtentTestManager;
+import utils.DateTimeHelper.DateTimeHelper;
+import utils.ExtentReportsHelper.ExtentManagerV1;
+import utils.ExtentReportsHelper.ExtentTestManager;
 import io.restassured.RestAssured;
 
-public class TestBase {
+public class BaseTest {
 
 	public static StringWriter requestwriter;
 	public static PrintStream requestcapture;

@@ -4,16 +4,15 @@ import org.apache.log4j.Logger;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import API_TestCases.TestBase;
-import framework.ExtentReports.ExtentTestManager;
-import framework.logger.LoggerHelper;
+import utils.ExtentReportsHelper.ExtentTestManager;
+import utils.LoggerHelper.LoggerHelper;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 
-public class GetCall extends TestBase	 {
+public class GetCall	 {
 
 	private Logger oLog = LoggerHelper.getLogger(GetCall.class);
 

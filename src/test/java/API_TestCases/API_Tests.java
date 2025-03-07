@@ -5,11 +5,11 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import API_Methods.GetCall;
-import framework.ExtentReports.ExtentTestManager;
-import framework.JSONUtil.JSON;
+import utils.ExtentReportsHelper.ExtentTestManager;
+import utils.JSONHelper.JSON;
 
 
-public class API_Tests extends TestBase {
+public class API_Tests extends BaseTest {
 	GetCall Get = new GetCall();
 	JSON json = new JSON();
 

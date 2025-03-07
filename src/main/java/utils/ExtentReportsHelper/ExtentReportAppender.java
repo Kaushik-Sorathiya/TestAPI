@@ -1,4 +1,4 @@
-package framework.ExtentReports;
+package utils.ExtentReportsHelper;
 
 import org.apache.log4j.AppenderSkeleton;
 
